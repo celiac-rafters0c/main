@@ -1,0 +1,10 @@
+import UIKit
+
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let label = UILabel(frame: CGRect(x: 100, y: 100, width: 200, height: 30))
+        label.text = "Hello, Swift!"
+        view.addSubview(label)
+    }
+}
